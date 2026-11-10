@@ -1,0 +1,25 @@
+# Titkok és helyi környezet
+.env
+.env.*
+!.env.example
+
+# Függőségek
+backend/vendor/
+frontend/node_modules/
+
+# Build kimenet
+frontend/dist/
+
+# Laravel futás közbeni fájlok
+backend/storage/*.key
+backend/storage/logs/*.log
+backend/bootstrap/cache/*.php
+backend/public/hot
+backend/public/storage
+
+# Szerkesztő és rendszer
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
